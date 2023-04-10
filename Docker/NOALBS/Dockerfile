@@ -11,5 +11,5 @@ RUN rm config.json
 WORKDIR /home
 ADD entrypoint.sh .
 
-ENTRYPOINT [ "~/entrypoint.sh" ]
+ENTRYPOINT [ "/home/entrypoint.sh" ]
 
